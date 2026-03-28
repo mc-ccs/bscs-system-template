@@ -49,18 +49,7 @@ Use the following branches unless your instructor or organization specifies a st
 ├── ISSUE_TEMPLATE/
 │   └── user_story.md
 └── pull_request_template.md
-docs/
-├── manuscript/
-│   ├── README.md
-│   ├── system-architecture.md
-│   ├── logic-flow.md
-│   └── implementation-traceability.md
-└── research/
-	├── README.md
-	├── backlog-and-mvp.md
-	├── testing-and-validation.md
-	├── ci-cd-and-quality-gates.md
-	└── sprint-release-log.md
+
 src/
 ├── README.md
 tests/
@@ -69,8 +58,6 @@ tests/
 
 ## What Goes Where
 
-* `docs/manuscript/` contains system-side technical evidence that can be cited in Chapter 3 and Chapter 4 of the manuscript.
-* `docs/research/` contains repository-level engineering records such as backlog summaries, test evidence references, CI notes, and release traceability.
 * `src/` contains the actual MVP implementation.
 * `tests/` contains automated tests, manual test scripts, fixtures, and related evidence.
 
