@@ -60,6 +60,7 @@ tests/
 
 * `src/` contains the actual MVP implementation.
 * `tests/` contains automated tests, manual test scripts, fixtures, and related evidence.
+* `.github/` contains issue and pull request scaffolds, and can later include CI workflows under `.github/workflows/`.
 
 ## Definition of Done
 
@@ -67,7 +68,7 @@ A story or task should not be treated as complete unless it satisfies all applic
 
 * implementation is merged through a reviewed pull request
 * relevant tests or validation steps were executed
-* related technical evidence in `docs/` was updated when the change affects architecture, validation, deployment, or release traceability
+* related technical evidence in the system repository or paired documentation repository was updated when the change affects architecture, validation, deployment, or release traceability
 * the issue, pull request, and branch naming remain traceable to the work performed
 
 ## Recommended Next Setup Steps
@@ -75,4 +76,4 @@ A story or task should not be treated as complete unless it satisfies all applic
 1. Protect `main` and `develop`.
 2. Add a `CODEOWNERS` file that matches the actual team and reviewers.
 3. Add CI workflows under `.github/workflows/`.
-4. Replace the scaffold files in `docs/` with project-specific evidence as implementation progresses.
+4. Replace the scaffold files in `src/` and `tests/`, and add any project-specific evidence folders your stack requires as implementation progresses.
